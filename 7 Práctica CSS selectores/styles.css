@@ -1,0 +1,19 @@
+.red-text {
+  color: red;
+}
+h1:nth-of-type(2) {
+  color: green;
+}
+#blue-text {
+  color: blue;
+}
+.hover-text:hover {
+  color: orange;
+}
+.first-line::first-line {
+  font-weight: bold;
+}
+.before-text::before {
+  content: "Nota: ";
+  font-weight: bold;
+}
