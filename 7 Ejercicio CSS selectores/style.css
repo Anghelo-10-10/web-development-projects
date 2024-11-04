@@ -4,13 +4,22 @@ ol {
   list-style-position: inside;
 }
 
-/* Write your CSS below, don't change the rules above. */
-p{
+p {
   color: red;
 }
-.note{
+
+.note {
   font-size: 20px;
 }
-#id-selector-demo{
+
+#id-selector-demo {
   color: green;
+}
+
+li[value="4"] {
+  color: blue;
+}
+
+* {
+  text-align: center;
 }
