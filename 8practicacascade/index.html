@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Especificidad en CSS</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      /* Especificidad baja: selector de elemento */
+      p {
+        color: blue;
+      }
+
+      /* Especificidad media: selector de clase */
+      .important {
+        color: green;
+      }
+
+      /* Especificidad alta: selector de ID */
+      #unique {
+        color: red;
+      }
+
+      /* Especificidad más alta: estilo en línea */
+    </style>
+  </head>
+  <body>
+    <ol>
+      <li></li>
+    </ol>
+    <p>Este es un párrafo con especificidad baja.</p>
+    <p class="important">Este es un párrafo con especificidad media.</p>
+    <p id="unique">Este es un párrafo con especificidad alta.</p>
+    <p style="color: purple">
+      Este es un párrafo con la especificidad más alta.
+    </p>
+  </body>
+</html>
