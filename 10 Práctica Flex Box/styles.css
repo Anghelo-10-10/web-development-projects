@@ -1,4 +1,4 @@
-body {
+/*body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -41,3 +41,17 @@ nav ul li:nth-child(3) a {
 nav ul li:nth-child(4) a {
   background-color: #563a9c;
 }
+*/
+
+
+
+ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row wrap; /*define flex directio y flex wrap*/
+
+
+}
+
+
