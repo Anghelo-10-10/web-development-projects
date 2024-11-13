@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: #fff7d1;
+}
+
+#container {
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+nav ul li:nth-child(1) a {
+  background-color: #563a9c;
+}
+
+nav ul li:nth-child(2) a {
+  background-color: #6a42c2;
+}
+
+nav ul li:nth-child(3) a {
+  background-color: #8b5dff;
+}
+
+nav ul li:nth-child(4) a {
+  background-color: #563a9c;
+}
